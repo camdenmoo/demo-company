@@ -1,4 +1,9 @@
+/* Imports */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+
+
+/* Globals */
 
 html, body{
     width: 100%;
@@ -13,4 +18,53 @@ html{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+
+/* Top nav */
+
+#topnav{
+    padding: 0rem 0;
+    line-height: 56px;
+}
+
+#topnav>.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#topnav .brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#topnav a{
+    color: inherit;
+}
+
+#topnav .brand img{
+    max-height: 1.8rem;
+    margin-right: 0.8rem;
+}
+
+#topnav .menu a{
+    padding-left: 0.6rem;
+    color: rgba(0,0,0,.5);
+}
+
+#topnav .menu a:hover{
+    color: rgba(0,0,0,.75);
 }

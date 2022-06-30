@@ -24,6 +24,15 @@ a{
     text-decoration: none;
 }
 
+a.button{
+    font-size: 1.2rem;
+    color: #fff;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 0.3rem;
+    padding: 0.65rem 1.4rem;
+}
+
 .container{
     max-width: 1140px;
     padding-left: 15px;
@@ -68,3 +77,46 @@ a{
 #topnav .menu a:hover{
     color: rgba(0,0,0,.75);
 }
+
+
+/* Hero */
+
+#hero{
+    background: #3dd;
+    padding: 8rem 0;
+    text-align: center;
+}
+
+#hero>.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .brand{
+    margin-bottom: 1.6rem;
+}
+
+#hero .brand img{
+    max-height: 9.2rem;
+    margin-bottom: 2rem;
+}
+
+#hero .brand>h1{
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
+
+#hero p{
+    max-width: 408px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+
+

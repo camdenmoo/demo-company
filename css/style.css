@@ -49,8 +49,8 @@ h2{
 
 .underscore{
     background: linear-gradient(to right,#fe4426 0,#fc7f26);
-    width: 8rem;
-    height: 0.55rem;
+    width: 6rem;
+    height: 0.5rem;
     margin: 2.2rem 0;
 }
 
@@ -181,6 +181,41 @@ h2{
 
 #video-embed h2{
     margin-bottom: 2rem;
+}
+
+
+/* About and Partners */
+
+#about-and-partners{
+    background: #fff;
+}
+
+#about-and-partners>.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+#about-and-partners #about-us p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
+}
+
+.partner-badges{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.partner-badges>.partner-badge{
+    padding: 20px;
+}
+
+.partner-badges>.partner-badge>img{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 

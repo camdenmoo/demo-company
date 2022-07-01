@@ -21,6 +21,7 @@ html{
 }
 
 a{
+    color: #000;
     text-decoration: none;
 }
 
@@ -248,4 +249,12 @@ h2{
     border-width: 0.1rem;
     background: transparent;
 }
+
+
+/* Instagram section */
+
+#instagram{
+    background: #fff;
+}
+
 

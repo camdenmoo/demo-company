@@ -54,6 +54,12 @@ h2{
     margin: 2.2rem 0;
 }
 
+.video-area{
+    position: relative;
+    width: 80%;
+    height: 600px;
+}
+
 
 /* Top nav */
 
@@ -151,6 +157,22 @@ h2{
     display: flex;
     justify-content: space-between;
     width: 100vw;
+}
+
+
+/* Video embed */
+
+#video-embed{
+    background: #000;
+}
+
+#video-embed h2,
+#video-embed h3{
+    color: #fff;
+}
+
+#video-embed h2{
+    margin-bottom: 2rem;
 }
 
 
